@@ -1,0 +1,51 @@
+.admin {
+    background-color: black;
+    height: 100vh;
+    overflow-y: scroll;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin::-webkit-scrollbar {
+    display: none;
+}
+
+.admin .parent-rooms {
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    overflow-y: scroll;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+
+.admin .parent-rooms::-webkit-scrollbar{
+    display: none;
+}
+
+.admin .parent-rooms .details {
+    border-bottom: 2px solid #2979FF;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.admin .parent-rooms .details h1 {
+    color: #2979FF;
+    line-height: 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.admin .parent-rooms .details h1:hover{
+    cursor: pointer;
+    color: #0140ad;
+}
+
+.admin .parent-rooms .details h2 {
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
